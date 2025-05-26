@@ -158,7 +158,7 @@ _class: title dark
 <!-- _backgroundColor: white -->
 
 ![bg left:25% w:70%](../../assets/images/iorandd_icon.jpg)
-## 太田 暢(@iorandd)
+## 太田 暢([@iorandd](https://x.com/iorandd))
 
 <div class="info-box">
 株式会社スリーシェイク</br>
@@ -186,9 +186,30 @@ SRE伴走型コンサルティングサービス「Sreake」事業部</br>
 
 ![bg 90%](../../assets/images/2025/qiita-bash/organization.png)
 
+<!-- _header: "" -->
+<!-- _class: lead -->
+
+<style scoped>
+h3 {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  color: #0066cc;
+  width: fit-content;
+}
+.black-text {
+  color: black !important;
+}
+</style>
+
+### [弊社サイト](https://jobs-3-shake.com/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%82%b9%e3%83%aa%e3%83%bc%e3%82%b7%e3%82%a7%e3%82%a4%e3%82%af-%e6%8e%a1%e7%94%a8%e6%83%85%e5%a0%b1%e4%b8%ad%e9%80%94%e3%82%a8%e3%83%b3%e3%82%b8%e3%83%8b%e3%82%a2%e7%b3%bb%e8%81%b7%e7%a8%ae) <strong class="black-text">より</strong>
+
 ---
 
-## Cursorについて
+## 🖊️ [Cursor](https://www.cursor.com/ja)について
 
 ![bg right:20% 75%](../../assets/images/2025/qiita-bash/cursor.png)
 
@@ -196,7 +217,7 @@ SRE伴走型コンサルティングサービス「Sreake」事業部</br>
 - プロジェクト全体の**コードベースをインデックス化**し、</br>自然言語での検索やAIによるコーディングが可能
 - Pro・Businessプランでは各種最新モデルを</br>月500まで**高速リクエスト**可能
 - 以降はスローリクエストまたは従量課金
-- 新しい[モデル](https://docs.cursor.com/models#models)が使える(**最近もclaude-4-sonnetにすぐ対応**)
+- 新しい[モデル](https://docs.cursor.com/models#models)が使える（最近もclaude-4-sonnetにすぐ対応）
 - 無料で使えるモデルも多数  
 
 ---
@@ -205,7 +226,7 @@ SRE伴走型コンサルティングサービス「Sreake」事業部</br>
 
 ---
 
-## Cursorの導入
+## 👨‍💻 Cursorの導入
 
 **導入に至った理由**
 - Vibe codingの高まりを踏まえ、アプリケーションチームとしてAI活用推進したい
@@ -214,11 +235,11 @@ SRE伴走型コンサルティングサービス「Sreake」事業部</br>
 **導入前の環境**
 - 原則、各自が好みのエディタを使用（VS Code、Vim/Neovimなど）
 - GitHub Copilot Business経由で各種最新モデルを利用可能
-- 個人契約でのCursor含め、AIエディタを使用していたメンバーも多数
+- 個人で任意のAIエディタ・エージェントを使用していたメンバーも多数
 
 ---
 
-## 定着における課題：クライアントワーク
+## 💼 懸念点：クライアントワーク
 
 - **少人数単位での案件進行**
   - 案件あたり2-3名単位かつ、複数の業務が並走
@@ -229,26 +250,32 @@ SRE伴走型コンサルティングサービス「Sreake」事業部</br>
 
 ---
 
-## 定着における課題：急速なAI環境変化
+## 🤖 懸念点：急速なAI環境の変化
 
-![bg right:30% 85%](../../assets/images/2025/qiita-bash/overwhelmed.png)
+![bg right:35% 70%](../../assets/images/2025/qiita-bash/overwhelmed.png)
 
 <div class="small-text">
 
 - **エンジニア個々の嗜好・習慣**
   - エディタ設定やプラグイン構成の個人最適化
-  - avante.nvimなど、**各コミュニティにおけるAI IDE模倣</br>プラグイン**の登場
-- **AI機能の標準化によるロックインのリスク**
-  - **VS Code+GitHub Copilotなど各ツールの急速な機能追従**
-    - Windsurf (2024年 11月)
-    - VS Code Agent Mode (2025 4月)
-  - codexやclaude codeなど**ターミナルCLIツール**も次々登場
+  - [avante.nvim](https://github.com/yetone/avante.nvim)など**各コミュニティAIプラグイン**開発
+- **AIコーディングツールの競争激化**
+  - [Windsurf](https://windsurf.com/editor)（2024年 11月）
+  - VS Code Agent Mode（2025 4月）
+  - [Codex](https://openai.com/index/introducing-codex/)（2025年 5月）
+  - [Claude Code](https://docs.anthropic.com/ja/docs/claude-code/overview)（2025年 5月）
 
 </div>
 
 ---
 
-## 1ヶ月後...どうなった？：生産性の向上
+## 🗓️ 1ヶ月後...どうなった？
+
+メンバーにアンケートを依頼
+
+---
+
+## 👍 生産性の向上
 
 - **実装スピード**が早くなった
   - コード補完（tab）
@@ -260,7 +287,7 @@ SRE伴走型コンサルティングサービス「Sreake」事業部</br>
 
 ---
 
-## 1ヶ月後...どうなった？：課題
+## 🌀 課題
 
 - **機能認知の不足** </br>機能が多すぎて全てを把握しきれず、なんとなく使いこなせていない感覚に陥る
 - **良すぎるUX** </br>基本機能が直感的で使いやすいため、詳細なドキュメンテーションを参照して</br>他の機能まで深く掘り下げる必要性を感じにくい
@@ -268,62 +295,53 @@ SRE伴走型コンサルティングサービス「Sreake」事業部</br>
 
 ---
 
-## 実際の浸透過程
+## ✅ 実際の浸透過程
 ![bg right:30% 90%](../../assets/images/2025/qiita-bash/notion.png)
 
 <div class="small-text">
 
 - 急激な変化ではなく、1ヶ月かけて**徐々に浸透**
-- **Notionを活用した知見の蓄積**
-  - Tips、案件事例、他社事例リンク、課題・要望を共有
-- **複数ツール併用パターンの出現**
-  - Vimと同じフォルダを並列で開いて、コードベース全体への質問など</br>特定の場面でCursorを活用
+- **社内Notionを活用した知見の蓄積**
+  - Tips、案件事例、他社事例リンク、課題・要望
+- **複数ツールの併用**
+  - Vimと同じフォルダを開き、コードベース全体への</br>質問など特定の場面でCursorを活用
   - 特定の言語やプロジェクトでのみCursorを使用
-    - PythonやTypeScriptはLLM自体の学習が進んでいるので使いやすい
-    - GoやPHPはあんまり？</br>(なのでrulesをちゃんと書いた方がいいらしい)
+    - PythonやTypeScriptはLLM自体の学習が進んでいる説
+    - GoやPHPはあんまり？</br>（rulesをちゃんと書いた方がいいらしい）
+    - [Awesome CursorRules](https://github.com/PatrickJS/awesome-cursorrules)
 </div>
 
 ---
 
-## VS Codeの機能追従とフォークIDEへの影響👀
+## 👀 VS Codeの動向とフォークエディタへの影響
 
-- **急速な機能追従**
-  - Composer (マルチファイル同時編集機能、2024年7月)
-    - GitHub Copilot Multi-file editing (2024年10月)
-  - Cursor Agent Mode (2024年9月)
-    - VS Code Agent Mode (2025年4月)
+- **VS Codeによる機能追従**
+  - Cursor Composer（マルチファイル同時編集機能、2024年7月）</br>->GitHub Copilot Multi-file editing (2024年10月)
+  - Cursor Agent Mode（2024年9月）</br>->VS Code Agent Mode（2025年4月）
 - **基盤 VS Code バージョンの遅延**
   - Cursor は VS Code 1.96（2024 年11月）を基盤としており、</br>互換性問題も発生
-- **Microsoft製拡張機能のフォークIDE非対応化(2025年4月)**
-- **VS Code の GitHub Copilot Chat 拡張 OSS 化(2025/5/19発表)**
-
-
+- Microsoft製拡張機能の[**フォークIDE非対応化**](https://github.com/getcursor/cursor/issues/2976?ref=blog.lai.so)（2025年4月）
+- VS Code [**GitHub Copilot Chat 拡張 OSS 化**](https://code.visualstudio.com/blogs/2025/05/19/openSourceAIEditor)（2025/5/19発表）
 
 ---
 
-## まとめ
+## 📝 まとめ
 
-- **AI活用を促すきっかけとしてのエディタのチーム導入は効果あり**
-- クライアントワークの特性や、エンジニアファーストの観点から</br>単一AIエディタの全面導入がマッチするとは限らない
-- **現状ベストは刻々と変わるので、複数のAIツールをどう使い分けるかが重要**
-
----
-
-## 個人的にはやっぱりCursorがナンバーワン！
-
-- **個人で課金してたしUI/UXが好き** 💰
-- **コードベース理解はやっぱり一番強い気がする** 🧠
-- **このスライドもCursorとMarpで作成しました** ✨
+- **AI活用を促すきっかけ**としてのエディタのチーム導入は効果あり
+- クライアントワークの特性や、エンジニアファーストの観点から単一AIエディタの</br>全面導入がマッチするとは限らない
+  - 申請は**希望制**にしたり、**複数の選択肢**から選べるようにするのが理想
+- 現状ベストは刻々と変わるので**AIツールをどう使い分けるかが重要**
 
 ---
 
-## Cursor Meetup Tokyo
+## [Cursor Meetup Tokyo](https://aiau.connpass.com/event/353531/)
 
 ![bg right:40% 60%](../../assets/images/2025/qiita-bash/cursormeetup.png)
 
+- 日本初のコミュニティイベント
+- 参加者4000名オーバー！
 - **日時**: 2025年6月6日（金）18:30〜21:30
 - **場所**: 株式会社メルカリ+オンライン
-- **参加方法**: [connpass](https://aiau.connpass.com/event/353531/)から申込み
 
 ---
 
