@@ -150,7 +150,7 @@ _class: title dark
 </div>
 
 <div class="author-info" style="text-align: left; padding-left: 0; text-indent: 0;">
-2025/5/28 Qiita Bash 最近ハマっている生成AI活用法を語ろう！</br>太田 暢(@iorandd)
+2025/5/28 Qiita Bash 最近ハマっている生成AI活用法を語ろう！</br>太田 暢 @iorandd 
 </div>
 
 ---
@@ -158,7 +158,7 @@ _class: title dark
 <!-- _backgroundColor: white -->
 
 ![bg left:25% w:70%](../../assets/images/iorandd_icon.jpg)
-## 太田 暢([@iorandd](https://x.com/iorandd))
+## 太田 暢 [@iorandd](https://x.com/iorandd)
 
 <div class="info-box">
 株式会社スリーシェイク</br>
@@ -166,7 +166,7 @@ SRE伴走型コンサルティングサービス「Sreake」事業部</br>
 アプリケーション開発支援チーム エンジニア
 </div>
 
-<p style="margin-top: 30px !important;">阪神ファン、エニタイムで筋トレ始めて3ヶ月</p>
+このスライドもCursorと[Marp](https://marp.app/)で作成しました！
 
 ---
 
@@ -246,7 +246,7 @@ h3 {
 - **案件ごとに異なる開発環境**
   - 言語、フレームワークなどが異なる
 - **マネージドIDE環境制約**
-  - Google Cloud Workstationなどの開発環境制限
+  - Google Cloud Workstationsなどの開発環境制限
 
 ---
 
@@ -259,11 +259,12 @@ h3 {
 - **エンジニア個々の嗜好・習慣**
   - エディタ設定やプラグイン構成の個人最適化
   - [avante.nvim](https://github.com/yetone/avante.nvim)など**各コミュニティAIプラグイン**開発
-- **AIコーディングツールの競争激化**
-  - [Windsurf](https://windsurf.com/editor)（2024年 11月）
-  - VS Code Agent Mode（2025 4月）
-  - [Codex](https://openai.com/index/introducing-codex/)（2025年 5月）
-  - [Claude Code](https://docs.anthropic.com/ja/docs/claude-code/overview)（2025年 5月）
+- **AIコーディングエディタ・CLIの競争激化**
+  - [Cline](https://cline.bot/)（2024年7月）
+  - [Windsurf](https://windsurf.com/editor)（2024年11月）
+  - [Claude Code](https://docs.anthropic.com/ja/docs/claude-code/overview)（2025年2月）🔥🔥🔥
+  - [VS Code Agent Mode](https://code.visualstudio.com/docs/copilot/chat/chat-agent-mode)（2025年3月）
+  - [Codex](https://openai.com/index/introducing-codex/)（2025年4月）
 
 </div>
 
@@ -281,7 +282,7 @@ h3 {
   - コード補完（tab）
   - 自然言語によるコード生成・編集（Command K）
   - AIチャットによるコード相談・修正（Chatパネル）
-- **コードベース全体を対象**とした質問により仕様理解が楽にあった
+- **コードベース全体**を対象とした質問により仕様理解が楽になった
 - **リファクタリングやテスト**の負担が減った
 - コーディング以外にも**ドキュメンテーション作成**の補助になった
 
@@ -317,11 +318,11 @@ h3 {
 
 - **VS Codeによる機能追従**
   - Cursor Composer（マルチファイル同時編集機能、2024年7月）</br>->GitHub Copilot Multi-file editing (2024年10月)
-  - Cursor Agent Mode（2024年9月）</br>->VS Code Agent Mode（2025年4月）
+  - Cursor Agent Mode（2024年9月）</br>->VS Code Agent Mode（2025年3月）
 - **基盤 VS Code バージョンの遅延**
-  - Cursor は VS Code 1.96（2024 年11月）を基盤としており、</br>互換性問題も発生
-- Microsoft製拡張機能の[**フォークIDE非対応化**](https://github.com/getcursor/cursor/issues/2976?ref=blog.lai.so)（2025年4月）
-- VS Code [**GitHub Copilot Chat 拡張 OSS 化**](https://code.visualstudio.com/blogs/2025/05/19/openSourceAIEditor)（2025/5/19発表）
+  - Cursor は VS Code 1.96（2024年11月）を基盤としており、</br>互換性問題も発生
+- **Microsoft製拡張機能の**[**フォークIDE非対応化**](https://github.com/getcursor/cursor/issues/2976?ref=blog.lai.so)（2025年4月）
+- **GitHub Copilot Chat extensionの**[**OSS 化**](https://code.visualstudio.com/blogs/2025/05/19/openSourceAIEditor)（2025年5月🆕）
 
 ---
 
